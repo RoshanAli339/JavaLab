@@ -39,7 +39,7 @@ class Salary extends Employee
 
     void displayEmp()
     {
-        System.out.println("Name of employee: " + name);
+        System.out.println("\n\nName of employee: " + name);
         System.out.println("Employee ID: " + id);
         System.out.println("Designation: " + designation);
         System.out.println("Net salary: $" + np);
