@@ -58,7 +58,7 @@ class ShapeDemo
         t.setDimensions(dim1, dim2);
         t.printArea();
 
-        System.out.println("Circle: ");
+        System.out.println("\nCircle: ");
         System.out.print("Enter radius of circle: ");
         dim1 = sc.nextDouble();
         Circle c = new Circle();

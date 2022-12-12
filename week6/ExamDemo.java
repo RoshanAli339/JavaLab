@@ -33,7 +33,7 @@ class Exam implements Students, Department
         System.out.println("Enter attendance of 6 months: ");
         for (int i = 0; i < 6; ++i)
         {
-            System.out.print("Subject "+ (i+1) + ": ");
+            System.out.print("Month "+ (i+1) + ": ");
             att[i] = sc.nextDouble();
         }
     }
